@@ -2,3 +2,12 @@ h1 {
     color: rgb(86, 22, 33);
 }
 
+body {
+    cursor: url('images/cb-cursor.png'), auto;
+  }
+  
+  a:hover , button:hover {
+    cursor: url('images/cb-cursor.png'), auto !important;
+  }
+  
+  

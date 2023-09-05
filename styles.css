@@ -3,11 +3,11 @@ h1 {
 }
 
 body {
-    cursor: url('images/cb-cursor.png'), auto;
+    cursor: url('images/pcb-cursor.png'), auto !important;
   }
   
   a:hover , button:hover {
-    cursor: url('images/cb-cursor.png'), auto !important;
+    cursor: url('images/pw-hover-cursor.png'), auto !important;
   }
   
   

@@ -24,8 +24,11 @@ I want the layout to be such that the 4 answers are on top of each other, but th
 Your second challenge is to implement this UI using Flexbox!
 
 **Hint**
+
 Use these as guides:
+
 https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+
 https://getbootstrap.com/docs/5.3/utilities/flex/
 
 
@@ -42,6 +45,7 @@ Your third challenge is to write a function that will update the image displayed
 When your function is working, clicking the "Answer 1" and "Answer 2" buttons should cause the card to display the Magician and High Priestess respectively.
 
 **Hint**
+
 Looking at the rest of the `script.js` file, can you see another example of how we are already using javascript to access and update elements on web page?
 
 Looking at the HTML, can you identify which element we want to update in this case, and what property we want to update on it, to change the image?

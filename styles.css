@@ -1,13 +1,46 @@
-h1 {
-    color: rgb(86, 22, 33);
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text&family=Source+Serif+4:opsz,wght@8..60,300&display=swap');
+
+html, body {
+  height: 100%;
+  font-family: 'Source Serif 4', serif;
 }
 
 body {
-    cursor: url('images/pcb-cursor.png'), auto !important;
-  }
+  background-image: linear-gradient(rgb(176, 158, 215), rgb(181, 140, 168));
+  cursor: url('images/pcb-cursor.png'), auto !important;
+}
+
+h1, h2, h3 {
+  color: rgb(248, 243, 220);
+  font-family: 'DM Serif Text', serif;
+}
+
+a {
+  color: rgb(123, 66, 113);
+}
   
-  a:hover , button:hover {
-    cursor: url('images/pw-hover-cursor.png'), auto !important;
+a:hover , button:hover {
+  color: white;
+  cursor: url('images/pw-hover-cursor.png'), auto !important;
+}
+
+.glow {
+  -webkit-animation: glow 2s ease-in-out infinite alternate;
+  -moz-animation: glow 2s ease-in-out infinite alternate;
+  animation: glow 2s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #dc95e1, 0 0 40px #dc95e1, 0 0 50px #dc95e1, 0 0 60px #dc95e1, 0 0 70px #dc95e1;
   }
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #db7fb6, 0 0 40px #db7fb6, 0 0 50px #db7fb6, 0 0 60px #db7fb6, 0 0 70px #db7fb6, 0 0 80px #db7fb6;
+  }
+}
+
+.card {
+  width: 20rem;
+}
   
   

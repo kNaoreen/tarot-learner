@@ -18,12 +18,8 @@ Right now, the layout of the 4 answer boxes is that they are all beside each oth
 
 I want the layout to be such that the 4 answers are on top of each other, but the entire answer section is still to the right of the card! Like this:
 
-|--------|   
-|        |   [ Answer 1 ]
-|        |   [ Answer 2 ]
-|  Card  |   [ Answer 3 ]
-|        |   [ Answer 4 ]
-|________|  
+![Screen Shot 2023-09-07 at 11 15 32 PM](https://github.com/kNaoreen/tarot-learner/assets/41240830/41c5e417-e898-4bbf-ac7e-a540f6589286)
+
 
 Your second challenge is to implement this UI using Flexbox!
 

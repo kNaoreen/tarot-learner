@@ -9,7 +9,6 @@ The site has a beautiful bootstrap footer that says "Created by Kayla and Naoree
 Your first challenge is to update the footer so that the text "Kayla" links to your Github page https://github.com/urkweenkayla, and
 the text "Naoreen" links to mine https://github.com/knaoreen
 
-
 ### Exercise 2: Fun with Flexbox
 
 Right now, the layout of the 4 answer boxes is that they are all beside each other, like this:

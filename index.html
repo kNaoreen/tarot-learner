@@ -1,34 +1,43 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <script src="script.js"></script>
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
-        <link rel="stylesheet" href="styles.css">
-    </head>
+
+<head>
+    <script src="script.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
 <body>
     <div class="container pt-5 d-flex flex-column align-items-center gap-4">
-        <h1 class="glow">Tarot Learner</h1> 
+        <h1 class="glow">Tarot Learner</h1>
 
         <div class="d-flex gap-3">
             <!-- Card -->
             <div class="card">
-                <img class="card-img-top" src="https://upload.wikimedia.org/wikipedia/commons/9/90/RWS_Tarot_00_Fool.jpg">
+                <img id="startcard" class="card-img-top"
+                    src="https://upload.wikimedia.org/wikipedia/commons/9/90/RWS_Tarot_00_Fool.jpg">
             </div>
 
             <!-- Answers -->
             <!-- EXERCISE 2 -->
-            <button id="button1">Answer 1</button>
-            <button id="button2">Answer 2</button>
-            <button>Answer 3</button>
-            <button>Answer 4</button>
+            <div class="d-flex flex-column mb-3">
+                <div class="p-2"><button id="button1">Answer 1</button></div>
+                <div class="p-2"><button id="button2">Answer 2</button></div>
+                <div class="p-2"><button id="button3">Answer 3</button></div>
+                <div class="p-2"><button id="button4">Answer 4</button></div>
+            </div>
         </div>
 
         <!-- Footer -->
         <footer class="w-100 d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
             <!-- EXERCISE 1 -->
-            <p class="col-md-4 mb-0 text-muted">Created by Kayla and Naoreen</p>
+            <p class="col-md-4 mb-0 text-muted">Created by <a href="https://github.com/urkweenkayla" class="">Kayla</a>
+                and <a href="https://github.com/knaoreen" class="">Naoreen</a></p>
             <a class="" href="about.html">About</a>
         </footer>
     </div>
+
 </body>
+
 </html>

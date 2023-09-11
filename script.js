@@ -5,8 +5,21 @@ addEventListener("DOMContentLoaded", (event) => {
 
     document.getElementById("button2").onclick = function() {
       updateCardImage("https://upload.wikimedia.org/wikipedia/commons/8/88/RWS_Tarot_02_High_Priestess.jpg")
+    };
+
+    document.getElementById("button3").onclick = function() {
+      updateCardImage("https://upload.wikimedia.org/wikipedia/commons/d/d2/RWS_Tarot_03_Empress.jpg")
+    };
+
+    document.getElementById("button4").onclick = function() {
+      updateCardImage("https://upload.wikimedia.org/wikipedia/commons/c/c3/RWS_Tarot_04_Emperor.jpg")
     }
 });
+
+function updateCardImage (link) {
+  let startcard = document.getElementById("startcard") 
+  startcard.src = link 
+}
 
 // EXERCISE 3:
 // Write a function that updates the card image

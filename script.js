@@ -16,11 +16,8 @@ addEventListener("DOMContentLoaded", (event) => {
     }
 });
 
-function updateCardImage (link) {
-  let startcard = document.getElementById("startcard") 
-  startcard.src = link 
-}
 
-// EXERCISE 3:
-// Write a function that updates the card image
-// Look at lines 3 and 7 for what the function should be called, and examples of what we'd expect to pass into the function (the parameter(s))
+function updateCardImage (newCardImgSrc) {
+  const startCard = document.getElementById("startCard") 
+  startCard.src = newCardImgSrc 
+}

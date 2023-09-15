@@ -42,5 +42,17 @@ a:hover , button:hover {
 .card {
   width: 20rem;
 }
+
+.answerButton {
+  padding: 1rem;
+  border-radius: 15px;
+  border: rgb(123, 66, 113);
+  background-color: rgb(248, 243, 220);
+}
+
+.answerButton:hover {
+  background-color: rgb(130, 85, 106);
+  color: rgb(248, 243, 220);
+}
   
   

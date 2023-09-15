@@ -45,7 +45,7 @@ a:hover , button:hover {
 
 .answerButton {
   padding: 1rem;
-  border-radius: 15px;
+  border-radius: 5px;
   border: rgb(123, 66, 113);
   background-color: rgb(248, 243, 220);
 }

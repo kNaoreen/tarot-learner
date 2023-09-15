@@ -34,17 +34,17 @@ On lines 17-23, I have created a list of tarot card instantiations.
 
 **Your task**
 
-Your first mission is to add an "uprightMeaning" property to the TarotCard class, and then update the existing tarot card instantiations to set each card's specific meaning. (In the HTML I am currently using the upright card meanings provided on Biddy Tarot, but we can always update this later).
+Your first mission is to add an `uprightMeaning` property to the `TarotCard` class, and then update the existing tarot card instantiations to set each card's specific meaning. (In the HTML I am currently using the upright card meanings provided on Biddy Tarot, but we can always update this later).
 
 **Hint**
 
 Right now, if you click any of the buttons, two things will be printed to the console:
 
 - The event (more on this in the next exercise)
-- The list called ALL_CARDS
+- The list called `ALL_CARDS`
 - The currently shown card (`currentCard`)
 
-You can look into the ALL_CARDS list or at the current card in your console to verify that you were successfully able to add your new property!
+You can look into the `ALL_CARDS` list or at the current card in your console to verify that you were successfully able to add your new property!
 
 ### Exercise 2: Everyone Needs Validation
 

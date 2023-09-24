@@ -16,7 +16,7 @@ Computer science can be surprisingly abstract, and even philosophical.
 
 In order to create our app, it will be beneficial for us to have an abstract way to represent what a "tarot card" is. When you think of a real tarot card, what attributes would you say it has?
 
-Tarot cards tend to have names (like "The Fool"), and they have images. They have sizes, and designs on the back. They have certain meanings they're associated with, and they can have different meanings when they show up reversed, in other words, they have an orientation. They have a smell, and a texture, and a shape. They have vibes (some cards have bad vibes).
+Tarot cards tend to have names (like "The Fool"), and they have images. They have sizes, and designs on the back. They have certain meanings they're associated with, and they can have different meanings when they show up reversed, in other words, they have an orientation. They have a smell, and a texture, and a shape. They have vibes (some cards have bad vibes). 
 
 Of all of these properties, only some will actually be useful for us to represent in our program. In particular:
 
